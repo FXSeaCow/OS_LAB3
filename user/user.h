@@ -22,6 +22,8 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+int pgaccess(void *addr, int len, unsigned int *mask);
+int ugetpid(void);
 
 // ulib.c
 int stat(const char*, struct stat*);
