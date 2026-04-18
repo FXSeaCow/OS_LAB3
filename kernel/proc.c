@@ -719,9 +719,3 @@ procdump(void)
     printf("\n");
   }
 }
-
-uint64
-sys_pgaccess(void)
-{
-  return -1; 
-}
